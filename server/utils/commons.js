@@ -268,7 +268,7 @@ exports.verifyPath = path => {
   // } else {
   //   return false;
   // }
-  return /^\/[a-zA-Z0-9\-\/_:!\.\{\}\=]*$/.test(path);
+  return /^\/[a-zA-Z0-9\-\/_:!*\.\{\}\=]*$/.test(path);
 };
 
 /**
